@@ -1,0 +1,111 @@
+.section {
+  padding: 2.5rem 2rem;
+  background: white;
+}
+
+.item {
+  position: relative;
+  padding: 1.5rem;
+  border: 1px solid rgba(10, 10, 10, 0.1);
+  border-radius: 4px;
+  background: white;
+  margin-bottom: 14px;
+  transition: border-color 0.2s;
+}
+
+.item:hover {
+  border-color: var(--c3);
+}
+
+.item.placeholder {
+  border-style: dashed;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+
+.name {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--c1);
+}
+
+.stack {
+  font-family: var(--mono);
+  font-size: 10px;
+  color: rgba(10, 10, 10, 0.4);
+  margin-top: 2px;
+}
+
+.desc {
+  font-size: 12.5px;
+  line-height: 1.65;
+  color: rgba(10, 10, 10, 0.6);
+  margin: 8px 0 12px;
+  font-style: italic;
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.link {
+  font-family: var(--mono);
+  font-size: 10px;
+  padding: 4px 10px;
+  border: 1px solid rgba(10, 10, 10, 0.15);
+  border-radius: 2px;
+  color: rgba(10, 10, 10, 0.5);
+  text-decoration: none;
+}
+
+.link.live {
+  border-color: var(--c3);
+  color: var(--c3);
+}
+
+.badge {
+  font-family: var(--mono);
+  font-size: 9px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 4px 10px;
+  border-radius: 2px;
+  white-space: nowrap;
+}
+
+.badge.inprogress {
+  background: #fef3cd;
+  color: #a06000;
+  border: 1px solid #f5c842;
+}
+
+.badge.done {
+  background: #d4edda;
+  color: #155724;
+  border: 1px solid #5cb85c;
+}
+
+.badge.placeholder {
+  background: rgba(10, 10, 10, 0.05);
+  color: rgba(10, 10, 10, 0.3);
+  border: 1px dashed rgba(10, 10, 10, 0.2);
+}
+
+.note {
+  font-family: var(--mono);
+  font-size: 10px;
+  color: rgba(10, 10, 10, 0.3);
+  text-align: center;
+  padding: 0.5rem 0 0.25rem;
+  letter-spacing: 1px;
+}

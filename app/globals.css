@@ -1,0 +1,32 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@400;500&family=Outfit:wght@300;400;500;600&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --c1: #0a0a0a;
+  --c2: #f5f0e8;
+  --c3: #e8421a;
+  --c4: #1a1a2e;
+  --serif: 'DM Serif Display', serif;
+  --mono: 'DM Mono', monospace;
+  --sans: 'Outfit', sans-serif;
+}
+
+html,
+body {
+  font-family: var(--sans);
+  background: var(--c2);
+  color: var(--c1);
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}

@@ -1,0 +1,12 @@
+.port {
+  min-height: 100vh;
+  overflow-x: hidden;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+
+.divider {
+  height: 4px;
+  background: linear-gradient(90deg, var(--c3) 0%, var(--c4) 100%);
+}

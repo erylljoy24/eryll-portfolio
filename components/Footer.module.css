@@ -1,0 +1,16 @@
+.main {
+  margin-top: 20px;
+  background: var(--c4);
+}
+
+.footer {
+  max-width: 1200px;
+  margin: 0 auto;
+  color: rgba(245, 240, 232, 0.4);
+  padding: 1.5rem 2rem;
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
