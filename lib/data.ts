@@ -50,7 +50,7 @@ export const experiences: Experience[] = [
     ],
   },
   {
-    title: "Full-Stack Developer",
+    title: "Mobile and Web Developer",
     company: "AirAsia / IndraPH (Freelance)",
     date: "Aug 2022 — Sep 2024",
     duties: [
@@ -91,7 +91,7 @@ export const experiences: Experience[] = [
   {
     title: "Full-Stack Web Developer",
     company: "Naxum Online Marketing Service, LLC",
-    date: "Aug 2019 — Sep 2020",
+    date: "Aug 2019 — Sept 2020",
     duties: [
       "Built commission calculator systems and backend logic from scratch.",
       "Designed financial computation systems using PHP Laravel.",
@@ -100,8 +100,18 @@ export const experiences: Experience[] = [
   },
   {
     title: "Mobile App Developer (Android)",
+    company: "IdeaHub Solutions Inc",
+    date: "March 2019 — Sept 2019",
+    duties: [
+      "Responsible for maintaining existing apps, like social media apps and calculator applications.",
+      "Most of our apps are from scratch, and as I became a part of this company,I immediately turned into an Intermediate level developer due to previous experience.",
+      "Maintained and updated apps on Google Play Store; applied strong debugging and optimization practices.",
+    ],
+  },
+  {
+    title: "Mobile App Developer (Android)",
     company: "IdeaHub Solutions Inc & Futuristech Studios",
-    date: "Aug 2019 — Sep 2020",
+    date: "June 2016 — Jan 2019",
     duties: [
       "Developed mobile ordering systems from scratch with custom UI designs and interactive animations.",
       "Created business apps for product advertisement and merchant promotions.",
