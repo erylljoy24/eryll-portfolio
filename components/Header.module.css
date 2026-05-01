@@ -1,15 +1,20 @@
-.nav {
+.main {
   background: var(--c4);
   color: var(--c2);
-  padding: 1rem 455px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  width: 100%;
   position: fixed;
   top: 0;
   left: 0;
-  right: 0;
   z-index: 50;
+}
+
+.nav {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
